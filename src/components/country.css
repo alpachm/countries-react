@@ -1,0 +1,30 @@
+.card__country {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 3rem;
+    background: var(--white);
+}
+
+.box__content {
+    padding: 1rem;
+    display: grid;
+    gap: 1rem;
+}
+
+.box__content h1 {
+    text-align: center;
+}
+
+@media (min-width: 820px) {
+
+    .card__country {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card__country .top {
+        display: flex;
+        align-items: center;
+    }
+}

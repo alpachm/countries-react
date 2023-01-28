@@ -1,0 +1,13 @@
+.card__start {
+    min-height: 70vh;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.card__start i {
+    font-size: 5rem;
+}

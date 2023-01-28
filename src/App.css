@@ -1,0 +1,85 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.App h1 {
+    color: var(--text-color);
+}
+
+.bx-sun,
+.bx-moon {
+    font-size: 2rem;
+    cursor: pointer;
+
+    transition: display .5s;
+}
+
+form {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+button {
+    margin: 2rem 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    background: var(--text-color);
+    color: var(--white);
+}
+
+.suerte {
+    gap: 1rem;
+    margin-top: .5rem;
+}
+
+input {
+    width: calc(100% - 62px);
+    max-width: calc(500px - 62px);
+    border: 2px solid var(--text-color);
+    background: var(--bg-color);
+    padding: 0 10px
+}
+
+input,
+button {
+    height: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.repo {
+    width: 100%;
+    margin: auto;
+    margin: 2rem 0;
+}
+
+.repo a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.repo a i {
+    font-size: 2rem;
+}
+
+footer p {
+    font-size: 12px;
+}

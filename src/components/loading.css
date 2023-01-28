@@ -1,0 +1,7 @@
+.card__loading {
+    min-height: 70vh;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
