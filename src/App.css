@@ -1,7 +1,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .App h1 {
@@ -82,4 +82,5 @@ footer {
 
 footer p {
     font-size: 12px;
+    text-align: center;
 }
