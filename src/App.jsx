@@ -29,7 +29,7 @@ function App() {
 
   const [start, setStart] = useState(true)
   const [country, setCountry] = useState()
-  const [inputValue, setInputValue] = useState('chile')
+  const [inputValue, setInputValue] = useState()
   const [hasError, setHasError] = useState(false)
   const [isLoading, setIsLoading] = useState(false)
   const [ramdon, setRamdon] = useState(false)
@@ -82,7 +82,7 @@ function App() {
         <button>Search</button>
       </form>
       <form className='suerte'>
-        <h3>Deseo probar suerte...</h3> <button onClick={randomF}>Search</button>
+        <h3>Quiero probar suerte...</h3> <button onClick={randomF}>Search</button>
       </form>
       {
         start ?
@@ -93,7 +93,7 @@ function App() {
       }
 
       <div className="repo">
-        <a href="" target="_blank">Link de repositorio <i class='bx bxl-github'></i></a>
+        <a href="https://github.com/alpachm/countries-react.git" target="_blank">Link de repositorio <i className='bx bxl-github'></i></a>
       </div>
 
       <footer>
